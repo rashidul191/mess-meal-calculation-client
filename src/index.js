@@ -2,10 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 import reportWebVitals from "./reportWebVitals";
+// import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const router = createBrowserRouter([
   {

@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import AddMember from "./Pages/Home/AddMember";
 import Home from "./Pages/Home/Home";
 import GoogleLogin from "./Pages/Login/GoogleLogin";
@@ -30,6 +32,7 @@ function App() {
         <Route path="*" element={<NoMatch></NoMatch>} />
       </Routes>
       <Footer></Footer>
+      <ToastContainer />
     </div>
   );
 }
